@@ -1,0 +1,45 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ml-env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Raw data only (large, license-bound, downloadable from Kaggle)
+data/raw/*.csv
+
+# Environment variables / secrets / API keys
+.env
+kaggle.json
+
+# IDE specific
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# info folder
+info/
